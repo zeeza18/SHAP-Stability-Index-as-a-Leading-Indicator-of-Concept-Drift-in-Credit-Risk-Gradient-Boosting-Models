@@ -1,0 +1,10 @@
+model: catboost
+iterations: 500
+depth: 6
+learning_rate: 0.05
+l2_leaf_reg: 3.0
+random_strength: 1.0
+bagging_temperature: 1.0
+border_count: 128
+verbose: 0
+random_seed: 42

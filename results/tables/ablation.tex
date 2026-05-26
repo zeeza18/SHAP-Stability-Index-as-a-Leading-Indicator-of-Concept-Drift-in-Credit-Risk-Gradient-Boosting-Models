@@ -1,0 +1,23 @@
+\begin{table}[ht]
+\centering
+\caption{Ablation study: contribution of each component (mean AUC-ROC $\pm$ std).}
+\label{tab:ablation}
+\begin{tabular}{llrr}
+\hline
+Dataset & Condition & AUC-ROC & F1 \\
+\hline
+Give Me Some Credit & Full System & \textbf{0.5079 $\pm$ 0.0161} & nan \\
+Give Me Some Credit & No Adaptive Retraining & \textbf{0.5079 $\pm$ 0.0161} & nan \\
+Give Me Some Credit & No Drift Detection & 0.5040 $\pm$ 0.0114 & nan \\
+Give Me Some Credit & Static Baseline & \textbf{0.5079 $\pm$ 0.0161} & nan \\
+IEEE-CIS Fraud & Full System & 0.5409 $\pm$ 0.0641 & nan \\
+IEEE-CIS Fraud & No Adaptive Retraining & 0.5409 $\pm$ 0.0641 & nan \\
+IEEE-CIS Fraud & No Drift Detection & \textbf{0.8849 $\pm$ 0.0866} & nan \\
+IEEE-CIS Fraud & Static Baseline & 0.5409 $\pm$ 0.0641 & nan \\
+ULB CC Fraud & Full System & 0.9671 $\pm$ 0.0248 & nan \\
+ULB CC Fraud & No Adaptive Retraining & 0.9671 $\pm$ 0.0248 & nan \\
+ULB CC Fraud & No Drift Detection & \textbf{0.9746 $\pm$ 0.0242} & nan \\
+ULB CC Fraud & Static Baseline & 0.9671 $\pm$ 0.0248 & nan \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,57 @@
+Dear Editors of Applied Intelligence,
+
+We submit for your consideration our manuscript titled:
+
+  "SHAP Stability Index as a Leading Indicator of Concept Drift in
+   Credit Risk Gradient Boosting Models"
+
+AUTHORS
+  Mohammed Azeezulla, DePaul University
+  Sakshi Balkrishna Panpatil, DePaul University
+
+MANUSCRIPT SUMMARY
+We propose the SHAP Stability Index (SSI), a label-free, model-agnostic metric
+that measures week-to-week stability of the top-20 SHAP feature-importance
+vectors to provide early warning of concept drift in production credit risk
+models. Across three public benchmark datasets (IEEE-CIS Fraud Detection,
+ULB Credit Card Fraud, and Give Me Some Credit) and three gradient boosting
+architectures (XGBoost, LightGBM, CatBoost), SSI consistently leads AUC
+degradation by a mean of 7.83 temporal windows (~55 calendar days) with
+p < 0.001 and Pearson r = 0.88. We demonstrate that SSI cleanly separates
+three drift regimes without threshold recalibration and that conventional
+PSI never breaches its standard 0.25 warning threshold on the IEEE-CIS
+dataset despite persistent model degradation — a blind spot SSI resolves.
+
+FIT TO APPLIED INTELLIGENCE
+This work is directly relevant to the journal's scope: it contributes a
+novel explainability-based monitoring technique grounded in SHAP theory,
+validated empirically on real-world financial data, and addresses the
+practical gap between regulatory monitoring requirements (SR 11-7 / SS1/23)
+and the limitations of distribution-based drift detectors.
+
+DECLARATION OF ORIGINALITY
+This manuscript has not been published elsewhere and is not under review at
+any other journal. All authors have read and approved the final version.
+
+COMPETING INTERESTS
+The authors declare no competing interests.
+
+DATA AVAILABILITY
+  - IEEE-CIS Fraud Detection: Kaggle competition dataset (public)
+  - ULB Credit Card Fraud: UCI ML Repository (public)
+  - Give Me Some Credit: Kaggle competition dataset (public)
+Code is available at: https://github.com/zeeza18/SHAP-Stability-Index-as-a-Leading-Indicator-of-Concept-Drift-in-Credit-Risk-Gradient-Boosting-Models
+
+We would be grateful for your consideration of this manuscript.
+
+Sincerely,
+
+Mohammed Azeezulla
+DePaul University
+mmoha134@depaul.edu
+
+Sakshi Balkrishna Panpatil
+DePaul University
+spanpati@depaul.edu
+
+Date: 2026-05-26

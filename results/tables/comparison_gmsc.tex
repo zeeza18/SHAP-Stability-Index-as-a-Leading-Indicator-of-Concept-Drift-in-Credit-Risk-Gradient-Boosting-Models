@@ -1,0 +1,15 @@
+\begin{table}[ht]
+\centering
+\caption{Performance on Give Me Some Credit}
+\label{tab:results_gmsc}
+\begin{tabular}{lrrr}
+\hline
+Model & AUC-ROC & Avg Prec & F1 \\
+\hline
+StaticXGBoost & 0.5042 $\pm$ 0.0129 & 0.0690 $\pm$ 0.0043 & \textbf{0.1254 $\pm$ 0.0048} \\
+StaticLightGBM & \textbf{0.5063 $\pm$ 0.0162} & \textbf{0.0694 $\pm$ 0.0056} & 0.0000 $\pm$ 0.0000 \\
+AdaptiveXGBoost & 0.4999 $\pm$ 0.0137 & 0.0678 $\pm$ 0.0029 & 0.1249 $\pm$ 0.0046 \\
+AdaptiveLightGBM & 0.5000 $\pm$ 0.0110 & 0.0683 $\pm$ 0.0040 & 0.0000 $\pm$ 0.0000 \\
+\hline
+\end{tabular}
+\end{table}

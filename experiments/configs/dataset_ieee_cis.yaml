@@ -1,0 +1,13 @@
+dataset: ieee_cis
+target_col: isFraud
+time_col: TransactionDT
+window_size_days: 14
+stride_days: 7
+min_train_windows: 6
+imbalance_strategy: smote
+smote_target_ratio: 0.1
+smote_k_neighbors: 5
+v_corr_threshold: 0.95
+prior_weight: 300
+top_k_features: 200
+random_seed: 42

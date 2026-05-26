@@ -1,0 +1,9 @@
+dataset: ccfraud
+target_col: Class
+time_col: Time
+window_size_seconds: 14400   # 4 hours
+stride_seconds: 7200          # 2 hours
+min_train_windows: 4
+imbalance_strategy: smote_tomek
+smote_target_ratio: 0.05
+random_seed: 42

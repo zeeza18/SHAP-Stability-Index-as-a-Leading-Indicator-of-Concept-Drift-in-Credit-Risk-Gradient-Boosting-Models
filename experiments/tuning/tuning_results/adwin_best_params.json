@@ -1,0 +1,4 @@
+{
+  "delta": 0.0003776663327107339,
+  "metric_to_monitor": "prediction_confidence"
+}

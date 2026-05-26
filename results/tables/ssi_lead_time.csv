@@ -1,0 +1,34 @@
+model,dataset,drift_window,ssi_drop_window,auc_drop_window,lead_time_windows
+AdaptiveXGBoost,IEEE-CIS Fraud,8,8,8,0
+AdaptiveXGBoost,IEEE-CIS Fraud,9,8,12,4
+AdaptiveXGBoost,IEEE-CIS Fraud,10,8,12,4
+AdaptiveXGBoost,IEEE-CIS Fraud,11,8,11,3
+AdaptiveXGBoost,IEEE-CIS Fraud,12,8,12,4
+AdaptiveXGBoost,IEEE-CIS Fraud,13,8,13,5
+AdaptiveXGBoost,IEEE-CIS Fraud,14,8,14,6
+AdaptiveXGBoost,IEEE-CIS Fraud,15,8,15,7
+AdaptiveXGBoost,IEEE-CIS Fraud,16,8,16,8
+AdaptiveXGBoost,IEEE-CIS Fraud,17,8,17,9
+AdaptiveXGBoost,IEEE-CIS Fraud,18,8,18,10
+AdaptiveXGBoost,IEEE-CIS Fraud,19,8,19,11
+AdaptiveXGBoost,IEEE-CIS Fraud,20,8,20,12
+AdaptiveXGBoost,IEEE-CIS Fraud,21,8,21,13
+AdaptiveXGBoost,IEEE-CIS Fraud,22,8,22,14
+AdaptiveXGBoost,IEEE-CIS Fraud,23,8,23,15
+AdaptiveXGBoost,ULB CC Fraud,13,13,16,3
+AdaptiveLightGBM,IEEE-CIS Fraud,8,8,8,0
+AdaptiveLightGBM,IEEE-CIS Fraud,9,8,13,5
+AdaptiveLightGBM,IEEE-CIS Fraud,10,8,13,5
+AdaptiveLightGBM,IEEE-CIS Fraud,11,8,11,3
+AdaptiveLightGBM,IEEE-CIS Fraud,12,8,13,5
+AdaptiveLightGBM,IEEE-CIS Fraud,13,8,13,5
+AdaptiveLightGBM,IEEE-CIS Fraud,14,8,14,6
+AdaptiveLightGBM,IEEE-CIS Fraud,15,8,15,7
+AdaptiveLightGBM,IEEE-CIS Fraud,16,8,16,8
+AdaptiveLightGBM,IEEE-CIS Fraud,17,8,17,9
+AdaptiveLightGBM,IEEE-CIS Fraud,18,8,18,10
+AdaptiveLightGBM,IEEE-CIS Fraud,19,8,19,11
+AdaptiveLightGBM,IEEE-CIS Fraud,20,8,20,12
+AdaptiveLightGBM,IEEE-CIS Fraud,22,8,22,14
+AdaptiveLightGBM,IEEE-CIS Fraud,23,8,23,15
+AdaptiveLightGBM,ULB CC Fraud,15,15,15,0

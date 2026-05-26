@@ -1,0 +1,5 @@
+detector: adwin
+delta: 0.002          # default — tuned via tune_adwin.py
+buffer_size: 5        # number of recent windows kept for retraining
+metric_to_monitor: error_rate   # options: error_rate, auc_window, prediction_confidence
+random_seed: 42

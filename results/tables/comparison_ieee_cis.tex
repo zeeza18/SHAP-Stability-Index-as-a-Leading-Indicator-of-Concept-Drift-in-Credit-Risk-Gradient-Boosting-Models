@@ -1,0 +1,15 @@
+\begin{table}[ht]
+\centering
+\caption{Performance on IEEE-CIS Fraud}
+\label{tab:results_ieee_cis}
+\begin{tabular}{lrrr}
+\hline
+Model & AUC-ROC & Avg Prec & F1 \\
+\hline
+StaticXGBoost & 0.8986 $\pm$ 0.0134 & 0.5188 $\pm$ 0.0705 & 0.2240 $\pm$ 0.0317 \\
+StaticLightGBM & \textbf{0.9186 $\pm$ 0.0157} & \textbf{0.6190 $\pm$ 0.0819} & \textbf{0.5280 $\pm$ 0.0699} \\
+AdaptiveXGBoost & 0.9038 $\pm$ 0.0180 & 0.5401 $\pm$ 0.0657 & 0.2154 $\pm$ 0.0468 \\
+AdaptiveLightGBM & 0.8649 $\pm$ 0.0615 & 0.5265 $\pm$ 0.1258 & 0.4144 $\pm$ 0.1563 \\
+\hline
+\end{tabular}
+\end{table}

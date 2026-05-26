@@ -1,0 +1,5 @@
+tau,XGBoost_k_ssi,XGBoost_n_alerts,XGBoost_pct,LightGBM_k_ssi,LightGBM_n_alerts,LightGBM_pct,CatBoost_k_ssi,CatBoost_n_alerts,CatBoost_pct
+0.7,8,6,37.5,8,9,56.2,16,5,31.2
+0.75,8,9,56.2,8,13,81.2,8,12,75.0
+0.8,8,15,93.8,8,16,100.0,8,16,100.0
+0.85,8,16,100.0,8,16,100.0,8,16,100.0

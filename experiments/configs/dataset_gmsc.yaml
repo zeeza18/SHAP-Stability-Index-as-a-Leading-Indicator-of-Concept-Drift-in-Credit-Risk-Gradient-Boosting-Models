@@ -1,0 +1,7 @@
+dataset: gmsc
+target_col: SeriousDlqin2yrs
+time_col: pseudo_time_index
+n_windows: 20
+n_train_windows: 8
+imbalance_strategy: class_weights
+random_seed: 42

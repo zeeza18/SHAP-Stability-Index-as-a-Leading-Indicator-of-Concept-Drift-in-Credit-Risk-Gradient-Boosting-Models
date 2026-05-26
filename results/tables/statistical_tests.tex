@@ -1,0 +1,23 @@
+\begin{table}[ht]
+\centering
+\caption{Statistical significance of adaptive vs static (Wilcoxon signed-rank, AUC-ROC, one-sided $H_1$: adaptive $>$ static). * $p{<}0.05$, ** $p{<}0.01$.}
+\label{tab:stat_tests}
+\begin{tabular}{llrrrrr}
+\hline
+Dataset & Comparison & $\bar{\mu}_{adap}$ & $\bar{\mu}_{static}$ & $\Delta$ & $p$-value & $r$ \\
+\hline
+IEEE-CIS Fraud & AdaptiveXGBoost vs StaticXGBoost & 0.9038 & 0.8983 & +0.0055 & 0.0662 & 0.446 \\
+IEEE-CIS Fraud & AdaptiveXGBoost vs StaticLightGBM & 0.9038 & 0.9179 & -0.0141 & 0.9936 & 0.002 \\
+IEEE-CIS Fraud & AdaptiveLightGBM vs StaticXGBoost & 0.8649 & 0.8983 & -0.0334 & 0.9508 & 0.015 \\
+IEEE-CIS Fraud & AdaptiveLightGBM vs StaticLightGBM & 0.8649 & 0.9179 & -0.0530 & 0.9972 & 0.001 \\
+Give Me Some Credit & AdaptiveXGBoost vs StaticXGBoost & 0.4999 & 0.5037 & -0.0038 & 0.5845 & 0.165 \\
+Give Me Some Credit & AdaptiveXGBoost vs StaticLightGBM & 0.4999 & 0.5069 & -0.0070 & 0.7935 & 0.079 \\
+Give Me Some Credit & AdaptiveLightGBM vs StaticXGBoost & 0.5000 & 0.5037 & -0.0037 & 0.6499 & 0.137 \\
+Give Me Some Credit & AdaptiveLightGBM vs StaticLightGBM & 0.5000 & 0.5069 & -0.0069 & 0.7935 & 0.079 \\
+ULB CC Fraud & AdaptiveXGBoost vs StaticXGBoost & 0.9625 & 0.9988 & -0.0363 & 1.0000 & 0.000 \\
+ULB CC Fraud & AdaptiveXGBoost vs StaticLightGBM & 0.9625 & 0.9989 & -0.0364 & 1.0000 & 0.000 \\
+ULB CC Fraud & AdaptiveLightGBM vs StaticXGBoost & 0.9719 & 0.9988 & -0.0269 & 1.0000 & 0.000 \\
+ULB CC Fraud & AdaptiveLightGBM vs StaticLightGBM & 0.9719 & 0.9989 & -0.0270 & 1.0000 & 0.000 \\
+\hline
+\end{tabular}
+\end{table}

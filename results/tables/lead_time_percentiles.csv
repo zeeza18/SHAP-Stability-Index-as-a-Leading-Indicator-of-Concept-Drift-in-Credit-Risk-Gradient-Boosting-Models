@@ -1,0 +1,5 @@
+model,dataset,n,min,p25,median,mean,p75,max,std
+AdaptiveXGBoost,IEEE-CIS,16,0,4.0,7.5,7.81,11.25,15,4.26
+AdaptiveLightGBM,IEEE-CIS,15,0,5.0,7.0,7.67,10.5,15,4.03
+AdaptiveXGBoost,ULB CC Fraud,1,3,3.0,3.0,3.0,3.0,3,0.0
+AdaptiveLightGBM,ULB CC Fraud,1,0,0.0,0.0,0.0,0.0,0,0.0
